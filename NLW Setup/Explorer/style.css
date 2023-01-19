@@ -15,15 +15,18 @@ body {
     display: grid;
     align-items: center;
 
-    padding: 4rem 4rem;
+    padding: 5vw 10vh;
 }
 
 
 header {
+    position: fixed;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+    width: 90vw;
     margin-bottom: 3rem;
 }
 
@@ -52,6 +55,9 @@ button {
 
 form {
     display: flex;
+    margin-top: 102px;
+
+    width: fit-content;
 }
 
 .days {
@@ -84,6 +90,7 @@ form {
     margin-top: 2.5rem;
 
     gap: 1rem;
+    
 }
 
 .habit {
@@ -114,4 +121,10 @@ input {
 input:checked {
     background-color: #8B5CF6;
     border: 2px solid #A78BFA;
+}
+
+@media(max-width:576px) {
+    button span {
+        display: none;
+    }
 }
