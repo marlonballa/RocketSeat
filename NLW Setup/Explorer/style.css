@@ -35,11 +35,12 @@ header {
 }
 
 button {
+    color: white;
+    cursor: pointer;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
     border: 1px solid #8B5CF6;
     background-color: transparent;
-    color: white;
 
     display: flex;
     align-items: center;
